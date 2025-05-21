@@ -27,6 +27,12 @@ First, ensure [Python](https://www.python.org/downloads/) (version 3.10 or great
 pip3 install streamrip --upgrade
 ```
 
+If you run into issues, try installing directly from the `dev` branch:
+
+```bash
+pip3 install git+https://github.com/nathom/streamrip.git@dev
+```
+
 When you type
 
 ```bash
@@ -44,6 +50,11 @@ makepkg -si
  or
  ```
 paru -S streamrip
+```
+
+Alternatively, for users of Homebrew, you can install streamrip through brew.
+```
+brew install streamrip
 ```
 
 ### Streamrip beta
